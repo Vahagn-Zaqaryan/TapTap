@@ -1,0 +1,107 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+    margin: 20px;
+    padding: 20px;
+
+}
+
+h1 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 40px;
+}
+.container {
+  overflow: hidden;
+  top: 0;
+  position: fixed;
+  background: white;
+  width: 100%;
+  border-bottom: 1px solid #dcdcdc;
+}
+.list-inline {
+  list-style-type: none;
+
+
+}
+
+.list-inline li {
+  display: inline-block;
+  line-height: 10px;
+  margin: 10px 20px 10px 0px;
+  height: 10px;
+  width: 150px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.list-inline li a {
+  text-decoration: none;
+  color:#000;
+}
+
+.list-inline li a:hover {
+  background-color: #d3d3d3;
+  border: hidden;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+#main {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  margin: auto;
+}
+
+.aside-with-text {
+  width: 65%;
+}
+.aside-with-image {
+  width: 32%;
+  position: relative;
+
+}
+
+
+.texts {
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.image-div {
+  /*top: 50px;*/
+  width: 250px;
+  height: 400px;
+  position: fixed;
+  /*background-image: url("./background/sectionImage.png");
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;*/
+}
+
+.image-div img {
+  border: hidden;
+  border-radius: 6px;
+
+}
+
+.image-div button {
+  color: white;
+  background-color: #ee6c59;
+  width: auto;
+  border-radius: 6px;
+  border: #ee6c59;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  line-height: 20px;
+}
+
+
+blockquote p {
+  font-size: 10px;
+  color: #ee6c59;
+}
