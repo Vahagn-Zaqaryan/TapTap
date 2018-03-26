@@ -1,0 +1,99 @@
+body {
+  color: #464646;
+}
+
+header {
+  padding-bottom: 15px;
+  margin: 10px;
+}
+
+h1 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 40px;
+}
+
+blockquote p {
+  font-size: 10px;
+  color: #ee6c59;
+}
+
+.container {
+  overflow: hidden;
+  top: 0;
+  background: white;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.list-inline {
+  list-style-type: none;
+}
+
+.list-inline li {
+  display: inline-block;
+  line-height: 10px;
+  margin: 10px 20px 10px 0px;
+  height: 0px;
+  width: 150px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.list-inline li a {
+  text-decoration: none;
+  color:#000;
+}
+
+.list-inline li a:hover {
+  border-bottom: 1px solid #464646;
+}
+
+#main {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+.aside-with-text {
+  width: 65%;
+}
+.aside-with-image {
+  width: 30%;
+  position: relative;
+
+}
+
+.texts {
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.image-div {
+  width: 250px;
+  height: 400px;
+  position: fixed;
+}
+
+.image-div img {
+  border: hidden;
+  border-radius: 6px;
+
+}
+
+.image-div button {
+  color: white;
+  background-color: #ee6c59;
+  width: auto;
+  border-radius: 6px;
+  border: #ee6c59;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  line-height: 20px;
+}
+
+.fas  {
+  color: #464646;
+}
