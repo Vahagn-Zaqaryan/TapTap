@@ -1,12 +1,10 @@
 body {
-  padding: 0px;
-  margin: 0px;
+  color: #464646;
 }
 
 header {
-    margin: 20px;
-    padding: 20px;
-
+  padding-bottom: 15px;
+  margin: 10px;
 }
 
 h1 {
@@ -14,46 +12,52 @@ h1 {
   margin: 0px;
   font-size: 40px;
 }
+
+blockquote p {
+  font-size: 10px;
+  color: #ee6c59;
+}
+
 .container {
   overflow: hidden;
   top: 0;
-  position: fixed;
   background: white;
   width: 100%;
+  height: auto;
   border-bottom: 1px solid #dcdcdc;
 }
+
 .list-inline {
   list-style-type: none;
-
-
 }
 
 .list-inline li {
   display: inline-block;
   line-height: 10px;
-  margin: 10px 20px 10px 0px;
-  height: 10px;
+  /*margin: 10px 20px 10px 0px;*/
+  height: 0px;
   width: 150px;
   font-size: 20px;
   text-align: center;
+  /*float: left;*/
+
 }
 
 .list-inline li a {
   text-decoration: none;
   color:#000;
+  /*float: right;*/
 }
 
 .list-inline li a:hover {
-  background-color: #d3d3d3;
-  border: hidden;
-  border-radius: 8px;
-  padding: 8px;
+  border-bottom: 1px solid #464646;
 }
 
 #main {
   display: flex;
   justify-content: space-between;
-  width: 45%;
+  align-content: center;
+  width: 70%;
   margin: auto;
 }
 
@@ -61,26 +65,19 @@ h1 {
   width: 65%;
 }
 .aside-with-image {
-  width: 32%;
+  width: 30%;
   position: relative;
 
 }
-
 
 .texts {
   border-bottom: 1px solid #dcdcdc;
 }
 
 .image-div {
-  /*top: 50px;*/
   width: 250px;
   height: 400px;
   position: fixed;
-  /*background-image: url("./background/sectionImage.png");
-  background-size: cover;
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;*/
 }
 
 .image-div img {
@@ -100,8 +97,6 @@ h1 {
   line-height: 20px;
 }
 
-
-blockquote p {
-  font-size: 10px;
-  color: #ee6c59;
+.fas  {
+  color: #464646;
 }
