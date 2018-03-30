@@ -21,7 +21,14 @@
     list-style: none;
     margin: auto;
 }
-.main .nav .menu ul li{
+.main .nav .menu ul a{
+    text-decoration: none;
+    color: #fff;
+}
+.main .nav .menu ul a:hover > li{
+    text-decoration: underline;
+}
+.main .nav .menu ul a li{
     padding: 0.82vmin 0;
     float: left;
     font-size: 2.45vmin;
@@ -36,6 +43,11 @@
 .main .nav .logo .name{
     color: #fff;
     font-size: 4vmin;
+    font-family: Fredoka_One;
+}
+.main .nav .logo .name a{
+    text-decoration: none;
+    color: #fff;
     font-family: Fredoka_One;
 }
 /* Header */
@@ -94,7 +106,7 @@
 .main .content{
     position: relative;
     z-index: 10;
-    min-height: 100vh;
+    min-height: calc(100vh - 3vmin);
     padding: 1.5vmin 0;
     background-color: #fff;
     width:100%;

@@ -14,7 +14,6 @@ async function new_second_page(ctx) {
     await ctx.render('second_page/index');
 }
 
-
 router.get('/home_page', home_page);
 router.get('/second_page', second_page);
 router.get('/new_second_page', new_second_page);
