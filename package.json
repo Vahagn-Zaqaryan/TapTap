@@ -24,6 +24,7 @@
     "koa-ejs": "^4.1.1",
     "koa-router": "^7.4.0",
     "koa-static": "^4.0.2",
+    "path": "^0.12.7",
     "sequelize": "^4.37.4"
   }
 }

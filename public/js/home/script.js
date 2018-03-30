@@ -8,7 +8,7 @@ $(document).ready(function (){
         let sum = $(window).height() - $(window).scrollTop();
         $('html,body').animate({
             scrollTop: $(window).scrollTop() + sum
-        }, "slow");
+        }, "slow", 'swing');
     });
     $("#sign_in").on("click", function(){
         scrollBar = false;
