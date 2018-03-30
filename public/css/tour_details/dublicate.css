@@ -67,7 +67,7 @@ blockquote p {
 .parralax {
   height: 110vmin;
   width: 100%;
-  background-image: url('../../img/second_page/img22.jpg');
+  background-image: url('../../img/tour_details/img22.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: top;
@@ -128,7 +128,7 @@ blockquote p {
 .bgImg {
   height: 250px;
   width: 100%;
-  background-image: url('../../img/second_page/img2.jpg');
+  background-image: url('../../img/tour_details/img2.jpg');
 }
 
 .details {
