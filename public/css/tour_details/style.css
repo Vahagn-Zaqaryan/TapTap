@@ -60,7 +60,6 @@ blockquote p {
 .parallax {
   height: 110vmin;
   width: 100%;
-  background-image: url('../../img/tour_details/img22.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: top;

@@ -1,7 +1,7 @@
 'use strict';
 
 const basa = {
-  bgImg: `so`, /* https://www.airbnb.com/experiences/64157?source=p2&currentTab=experience_tab&searchId=20f4aacc-f15e-40e3-8425-808b35b55f13&federatedSearchId=2eba2cbd-4602-495f-80cc-fbb2607b3705&sectionId=2a6e32e0-3035-458b-b3dd-1401824cf162
+  bgImg: `10`, /* https://www.airbnb.com/experiences/64157?source=p2&currentTab=experience_tab&searchId=20f4aacc-f15e-40e3-8425-808b35b55f13&federatedSearchId=2eba2cbd-4602-495f-80cc-fbb2607b3705&sectionId=2a6e32e0-3035-458b-b3dd-1401824cf162
       link֊երը փոխում եմ ի դեպ, ամեն մեկին իրա լինքն ա դրած եսլիշտօ
       link for photos, նկարները դու կքաշես մնացածը ես կդնեմ հեսա */
   name: `Authentic Rooftop Paella`,

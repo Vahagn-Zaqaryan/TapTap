@@ -1,7 +1,7 @@
 'use strict';
 
 const basa = {
-  bgImg: `so`, /* https://www.airbnb.com/experiences/40258?source=pdpother&currentTab=experience_tab&searchId=2ee739d8-1a25-401d-851c-6000337f8117
+  bgImg: `4`, /* https://www.airbnb.com/experiences/40258?source=pdpother&currentTab=experience_tab&searchId=2ee739d8-1a25-401d-851c-6000337f8117
       link֊երը փոխում եմ ի դեպ, ամեն մեկին իրա լինքն ա դրած եսլիշտօ
       link for photos, նկարները դու կքաշես մնացածը ես կդնեմ հեսա */
   name: `Bike Expedition`,

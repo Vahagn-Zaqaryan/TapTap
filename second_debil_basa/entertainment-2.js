@@ -1,7 +1,7 @@
 'use strict';
 
 const basa = {
-  bgImg: `so`, /* https://www.airbnb.com/experiences/41090?source=p2&currentTab=experience_tab&searchId=9afcf163-eb86-436e-bae6-ecd9ab8d3daf&federatedSearchId=67025189-54c2-4ba4-a47c-d4edbb65d32c&sectionId=374e3f35-1139-4c16-b3da-cb53ce007d11
+  bgImg: `2`, /* https://www.airbnb.com/experiences/41090?source=p2&currentTab=experience_tab&searchId=9afcf163-eb86-436e-bae6-ecd9ab8d3daf&federatedSearchId=67025189-54c2-4ba4-a47c-d4edbb65d32c&sectionId=374e3f35-1139-4c16-b3da-cb53ce007d11
       link֊երը փոխում եմ ի դեպ, ամեն մեկին իրա լինքն ա դրած եսլիշտօ
       link for photos, նկարները դու կքաշես մնացածը ես կդնեմ հեսա */
   name: `Craft postcards in a family paper shop`,

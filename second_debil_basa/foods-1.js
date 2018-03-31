@@ -1,7 +1,7 @@
 'use strict';
 
 const basa = {
-  bgImg: `so`, /* https://www.airbnb.com/experiences/184169?source=p2&currentTab=experience_tab&searchId=2ee739d8-1a25-401d-851c-6000337f8117&federatedSearchId=e78304a8-fada-4c03-9f77-86b636f160ca&sectionId=3beb5235-0e24-4519-861b-4f9eaa5e2819
+  bgImg: `8`, /* https://www.airbnb.com/experiences/184169?source=p2&currentTab=experience_tab&searchId=2ee739d8-1a25-401d-851c-6000337f8117&federatedSearchId=e78304a8-fada-4c03-9f77-86b636f160ca&sectionId=3beb5235-0e24-4519-861b-4f9eaa5e2819
       link֊երը փոխում եմ ի դեպ, ամեն մեկին իրա լինքն ա դրած եսլիշտօ
       link for photos, նկարները դու կքաշես մնացածը ես կդնեմ հեսա */
   name: `Cherry Blossom View &"KANJI"Art Making`,
