@@ -12,21 +12,21 @@ const basa = {
   equipment: `Drinks and 1 ticket`,
   language: `Offered in English`,
 
-  extra {
+  extra: {
     paragraph: `People are eyeing this experience. Over 8,900 people have viewed it this week.`//ստեղ էքստրա կա :/
   },
 
-  about {
+  about: {
     header: `About your host, August`,
     paragraph: `I have a huge love for meeting new people and learning different cultures. I was also a contestant on season six of American Idol. For over 10 years I've worked in the nightlife scene as a DJ and bodyguard.`
   },
 
-  toDo {
+  toDo: {
     header: `What we’ll do`, //ու ստեղ հասկացա, որ հիդերները նույնն են ։Դ
     paragraph: `Forget all the common touristy sites. I'm going to show you how we really party in New York City. They don't call it "the city that never sleeps" for nothing.`
   },
 
-  provides {
+  provides: {
     header: `What I’ll provide`,
     paragraph1: `Free Shots & Food`,
     paragraph2: `Free Entry/Discounted`,
@@ -34,22 +34,22 @@ const basa = {
     //համենայն դեպս դու սկզբիզ nature1.js֊ի քոմմենթները կարդալով իջի
   },
 
-  age {
+  age: {
     header: `Who can come`,
     paragraph: `Guests of all ages can attend.`
   },
 
-  notes {
+  notes: {
     header: `Notes`,
     paragraph: `Please dress business casual. No athletic wear ! Also please remember to bring your Identification.`
   },
 
-  location {
+  location: {
     header: `Where we’ll be`,
     paragraph: `We will either be in Midtown, the East or West Village, the Lower East Side, or Hell's Kitchen. These locations have historical significance and captivating shows for all walks of life. Must be 21 or over!`
-  }
+},
 
-  map {
+  map: {
     //ստեղ արդեն չգիտեմ ինչ գրեմ, Արտոն ասում էր մենակ Հայաստանն հելնի հերիք ա, սօ ստեղ մէփն ա էդ կետ մետն հետո,
     // էս չեմ հասկանում, ոնց կարա ինքը փոխի էլի, հասկանում եմ ուղղակի էդ շատ ա
     //լավ էս տեսնվելուց կխոսանք, թող մէփը ուղղակի քցի տեղը

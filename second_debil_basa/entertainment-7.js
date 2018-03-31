@@ -16,17 +16,17 @@ const basa = {
   //   paragraph: `People are eyeing this experience. Over 900 people have viewed it this week.`//ստեղ էքստրա կա :/
   // },
 
-  about {
+  about: {
     header: `About your host, Diego`,
     paragraph: `I have been a working musician and teaching artist for over ten years. I was the guitar player for the Community College of Philadelphia Jazz band for four years, played lead guitar for multiple rock bands, accompanied many singers and worked extensively as a solo instrumentalist.`
   },
 
-  toDo {
+  toDo: {
     header: `What we’ll do`, //ու ստեղ հասկացա, որ հիդերները նույնն են ։Դ
     paragraph: `Experience an intimate and romantic performance by local jazz trio Bridgett and the Asteroids.`
   },
 
-  provides {
+  provides: {
     header: `What I’ll provide`,
     paragraph1: `Tickets`,
     // paragraph2: `Free Entry/Discounted`,
@@ -34,22 +34,22 @@ const basa = {
     //համենայն դեպս դու սկզբիզ nature1.js֊ի քոմմենթները կարդալով իջի
   },
 
-  age {
+  age: {
     header: `Who can come`,
     paragraph: `Guests ages 18 and up can attend.`
   },
 
-  notes {
+  notes: {
     header: `Notes`,
     paragraph: `BYOB`
   },
 
-  location {
+  location: {
     header: `Where we’ll be`,
     paragraph: `Located in the middle of the Italian Market and nearby Nina's Trattoria and Monsu restaurants, Mister John’s Music is an independent music school beloved by the community.`
-  }
+},
 
-  map {
+  map: {
     //ստեղ արդեն չգիտեմ ինչ գրեմ, Արտոն ասում էր մենակ Հայաստանն հելնի հերիք ա, սօ ստեղ մէփն ա էդ կետ մետն հետո,
     // էս չեմ հասկանում, ոնց կարա ինքը փոխի էլի, հասկանում եմ ուղղակի էդ շատ ա
     //լավ էս տեսնվելուց կխոսանք, թող մէփը ուղղակի քցի տեղը

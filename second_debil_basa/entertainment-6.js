@@ -12,21 +12,21 @@ const basa = {
   equipment: `1 ticket`,
   language: `Offered in English`,
 
-  extra {
+  extra: {
     paragraph: `People are eyeing this experience. Over 900 people have viewed it this week.`//ստեղ էքստրա կա :/
   },
 
-  about {
+  about: {
     header: `About your host, Ross`,
     paragraph: `Every now and then our home transforms into the magical SHOREDITCH TREEHOUSE. A unique loft space in the heart of Shoreditch, complete with fairy lights, cushions, swing and a spectacular Steinway Concert Grand piano.`
   },
 
-  toDo {
+  toDo: {
     header: `What we’ll do`, //ու ստեղ հասկացա, որ հիդերները նույնն են ։Դ
     paragraph: `Share your evening with world class musicians and fellow music lovers! This unforgettable experience invites you behind the scenes of classical music with humour, charm and prosecco!`
   },
 
-  provides {
+  provides: {
     header: `What I’ll provide`,
     paragraph1: `1 concert ticket, A night of music`,
     // paragraph2: `Free Entry/Discounted`,
@@ -34,22 +34,22 @@ const basa = {
     //համենայն դեպս դու սկզբիզ nature1.js֊ի քոմմենթները կարդալով իջի
   },
 
-  age {
+  age: {
     header: `Who can come`,
     paragraph: `Guests ages 16 and up can attend.`
   },
 
-  notes {
+  notes: {
     header: `Notes`,
     paragraph: `The nearest tube stations are Shoreditch High Street (5 mins away), Old Street (7 mins away) and Liverpool Street (9mins).`
   },
 
-  location {
+  location: {
     header: `Where we’ll be`,
     paragraph: `London’s best kept secret - the Shoreditch Treehouse - a unique & intimate loft space in the heart of Shoreditch that's hosted many magical gigs.`
-  }
+},
 
-  map {
+  map: {
     //ստեղ արդեն չգիտեմ ինչ գրեմ, Արտոն ասում էր մենակ Հայաստանն հելնի հերիք ա, սօ ստեղ մէփն ա էդ կետ մետն հետո,
     // էս չեմ հասկանում, ոնց կարա ինքը փոխի էլի, հասկանում եմ ուղղակի էդ շատ ա
     //լավ էս տեսնվելուց կխոսանք, թող մէփը ուղղակի քցի տեղը

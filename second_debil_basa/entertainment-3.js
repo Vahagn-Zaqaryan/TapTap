@@ -17,17 +17,17 @@ const basa = {
   //   paragraph: `People are eyeing this experience. Over 500 people have viewed it this week.`//ստեղ էքստրա չկա
   // },
 
-  about {
+  about: {
     header: `About your host, Enmys & Yasser`,
     paragraph: `Your host will be one of our team members: Enmys, Yasser or María. All four of us are Havana natives and bike lovers. We love showing new guests around our city.`
   },
 
-  toDo {
+  toDo: {
     header: `What we’ll do`, //ու ստեղ հասկացա, որ հիդերները նույնն են ։Դ
     paragraph: `I’ll take you through the ancient, busy streets of Havana on bike as we learn about Cuba. First, we’ll meet at a café for coffee and introductions.`
   },
 
-  provides {
+  provides: {
     header: `What I’ll provide`,
     paragraph1: `Breakfast`,
     paragraph2: `Coffee, water, or juice`,
@@ -35,22 +35,22 @@ const basa = {
     //համենայն դեպս դու սկզբիզ nature1.js֊ի քոմմենթները կարդալով իջի
   },
 
-  age {
+  age: {
     header: `Who can come`,
     paragraph: `Guests of all ages can attend.`
   },
 
-  notes {
+  notes: {
     header: `Notes`,
     paragraph: `Please be on time. We wait for you 10 min before go for a coffee. Let me know by call if you're late.`
   },
 
-  location {
+  location: {
     header: `Where we’ll be`,
     paragraph: `We’ll pedal through Old Havana, the core of the original city, as well as Central Havana and downtown. Sights we’ll pass by will include Palacio de La Revolución, the Malecón, La Rampa, Callejón de Hamel, Chinatown, and Parque Central.`
-  }
+  },
 
-  map {
+  map: {
     //ստեղ արդեն չգիտեմ ինչ գրեմ, Արտոն ասում էր մենակ Հայաստանն հելնի հերիք ա, սօ ստեղ մէփն ա էդ կետ մետն հետո,
     // էս չեմ հասկանում, ոնց կարա ինքը փոխի էլի, հասկանում եմ ուղղակի էդ շատ ա
     //լավ էս տեսնվելուց կխոսանք, թող մէփը ուղղակի քցի տեղը

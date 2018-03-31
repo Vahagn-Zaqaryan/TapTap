@@ -12,17 +12,17 @@ const basa = {
   equipment: `Snacks`,
   language: `Offered in English`,
 
-  extra {
-    header: `Quiality`,
+  extra: {
+    //header: `Quiality`,
     paragraph: `People are eyeing this experience. Over 500 people have viewed it this week.`//ստեղ էքստրա կա ու ինքը հիդեր էլ ունի
   },
 
-  about {
+  about: {
     header: `About your host, Ken`,
     paragraph: `I used to be a sushi chef and Artist. It is much easier to make SAKURA Art and sushi than you think. Let's watch beautiful cherry trees in the Yoyogi park. `
   },
 
-  toDo {
+  toDo: {
     header: `What we’ll do`, //ու ստեղ հասկացա, որ հիդերները նույնն են ։Դ
     paragraph: `"SAKURA de Art Project"
                   Does cherry blossom mean something for you? We are going to make some art and take photos
@@ -30,7 +30,7 @@ const basa = {
                   For Japanese, cherry blossom is the symbol of Spring, graduation, and the new life.` //soryy :)
   },
 
-  provides {
+  provides: {
     header: `What I’ll provide`,
     paragraph1: `Chips, rice ball and more `,
     // paragraph2: `Papermaking tools `,
@@ -38,23 +38,23 @@ const basa = {
     //համենայն դեպս դու սկզբիզ nature1.js֊ի քոմմենթները կարդալով իջի
   },
 
-  age {
+  age: {
     header: `Who can come`,
     paragraph: `Guests of all ages can attend.`
   },
 
-  notes {
+  notes: {
     header: `Notes`,
     paragraph: `"How to access" Walkable from Harajyuku station or Meiji Jingu Mae Station`
   },
 
-  location {
+  location: {
     header: `Where we’ll be`,
     paragraph: `12:00 Yoyogi Park Enterance
 Assembled under the clock tower`
-  }
+},
 
-  map {
+  map: {
     //ստեղ արդեն չգիտեմ ինչ գրեմ, Արտոն ասում էր մենակ Հայաստանն հելնի հերիք ա, սօ ստեղ մէփն ա էդ կետ մետն հետո,
     // էս չեմ հասկանում, ոնց կարա ինքը փոխի էլի, հասկանում եմ ուղղակի էդ շատ ա
     //լավ էս տեսնվելուց կխոսանք, թող մէփը ուղղակի քցի տեղը

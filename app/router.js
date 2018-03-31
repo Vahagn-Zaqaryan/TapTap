@@ -9,8 +9,11 @@ async function home(ctx) {
 }
 
 async function tour_details(ctx) {
-
-    await ctx.render('tour_details/index');
+    console.log(ctx.params.id);
+    const basa = require('../second_debil_basa/' + ctx.params.id);
+    await ctx.render('tour_details/index', {
+        basa: basa
+    });
 }
 
 async function tour(ctx) {
