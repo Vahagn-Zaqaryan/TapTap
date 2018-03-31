@@ -17,17 +17,17 @@ const basa = {
   //   paragraph: `People are eyeing this experience. Over 900 people have viewed it this week.`//ստեղ էքստրա կա :/
   // },
 
-  about {
+  about: {
     header: `About your host, Armen Hovsepyan`,
     paragraph: `I was born in Gyumri in 1988. After finishing my education in the US, I returned back to Armenia and founded Gyumri’s first travel website: www.travelgyumri.com, which provides the latest and most necessary information for the visitors traveling to Gyumri.`
   },
 
-  toDo {
+  toDo: {
     header: `What we’ll do`, //ու ստեղ հասկացա, որ հիդերները նույնն են ։Դ
     paragraph: `This is an amazing opportunity to discover 18th-19th century unique and indigenous architecture, cuisine and the most hospitable people of Armenia’s cultural capital. This walking tour will help you discover more of the historic flavor of the city and the lifestyle of Gyumri people. Get to know the significant religious structures of the city, the Kumayri historic district, arts and crafts of the city. `
   },
 
-  provides {
+  provides: {
     header: `What I’ll provide`,
     paragraph1: `Lunch`,
     paragraph2: `Guide service`,
@@ -35,22 +35,22 @@ const basa = {
     //համենայն դեպս դու սկզբիզ nature1.js֊ի քոմմենթները կարդալով իջի
   },
 
-  age {
+  age: {
     header: `Who can come`,
     paragraph: `Guests ages 12 and up can attend.`
   },
 
-  notes {
+  notes: {
     header: `Notes`,
     paragraph: `Wear long sleeves and comfortable shoes. We highly recommend that you bring sunscreen and sunglasses for protection. Also don't forget your camera, because this is an amazing ride for taking photos.`
   },
 
-  location {
+  location: {
     header: `Where we’ll be`,
     paragraph: `Gyumri, Armenia`
-  }
+  },
 
-  map {
+  map: {
     //ստեղ արդեն չգիտեմ ինչ գրեմ, Արտոն ասում էր մենակ Հայաստանն հելնի հերիք ա, սօ ստեղ մէփն ա էդ կետ մետն հետո,
     // էս չեմ հասկանում, ոնց կարա ինքը փոխի էլի, հասկանում եմ ուղղակի էդ շատ ա
     //լավ էս տեսնվելուց կխոսանք, թող մէփը ուղղակի քցի տեղը

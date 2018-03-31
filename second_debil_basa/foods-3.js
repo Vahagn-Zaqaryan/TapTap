@@ -12,21 +12,21 @@ const basa = {
   equipment: `1 meal, snacks and Drinks`,
   language: `Offered in English`,
 
-  extra {
+  extra: {
     paragraph: `There are only a few spots left. Join 6 others at Maria Y John’s experience next Sunday.`//ստեղ էքստրա կա :/
   },
 
-  about {
+  about: {
     header: `About your host, Maria Y John`,
     paragraph: `I'm an architect, designer and cooking passionate. Originally from Valencia (where Paella comes from) I've lived in Ivory Coast, India & US, all very different cultures with something in commune, it's love for my Sundays Paellas. Every where I lived I've been known as the Paella master chef.`
   },
 
-  toDo {
+  toDo: {
     header: `What we’ll do`, //ու ստեղ հասկացա, որ հիդերները նույնն են ։Դ
     paragraph: `Learn how to cook your first paella in a typical informal Barcelona terrace. A weekend for me is not complete without cooking Paella with friends in my rooftop overlooking Vila de Gràcia.`
   },
 
-  provides {
+  provides: {
     header: `What I’ll provide`,
     paragraph1: `Paella`,
     paragraph2: `Vermouth, Beer, Water`,
@@ -34,22 +34,22 @@ const basa = {
     //համենայն դեպս դու սկզբիզ nature1.js֊ի քոմմենթները կարդալով իջի
   },
 
-  age {
+  age: {
     header: `Who can come`,
     paragraph: `Guests of all ages can attend.`
   },
 
-  notes {
+  notes: {
     header: `Notes`,
     paragraph: `Bring a spirit for adventure and a love of good food we will provide the rest. All dietary requirements are catered for. The walking distance is short at a nice relaxed pace.`
   },
 
-  location {
+  location: {
     header: `Where we’ll be`,
     paragraph: `We'll cook and dine outside on the red-tile roof of a traditional Gràcia apartment building before moving to an outdoor cafe on Plaça de Sol for an after-lunch coffee.`
-  }
+  },
 
-  map {
+  map: {
     //ստեղ արդեն չգիտեմ ինչ գրեմ, Արտոն ասում էր մենակ Հայաստանն հելնի հերիք ա, սօ ստեղ մէփն ա էդ կետ մետն հետո,
     // էս չեմ հասկանում, ոնց կարա ինքը փոխի էլի, հասկանում եմ ուղղակի էդ շատ ա
     //լավ էս տեսնվելուց կխոսանք, թող մէփը ուղղակի քցի տեղը

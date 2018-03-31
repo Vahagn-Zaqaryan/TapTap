@@ -12,21 +12,21 @@ const basa = {
   equipment: `1 meal, Snacks, Drinks and Equipment`,
   language: `Offered in English`,
 
-  extra {
+  extra: {
     paragraph: `There are only a few spots left. Join 6 others at Luca&Pietro’s experience this Saturday.`//ստեղ էքստրա կա :/
   },
 
-  about {
+  about: {
     header: `About your host, Luca&Pietro`,
     paragraph: `I'm an architect, designer and cooking passionate. Originally from Valencia (where Paella comes from) I've lived in Ivory Coast, India & US, all very different cultures with something in commune, it's love for my Sundays Paellas. Every where I lived I've been known as the Paella master chef.`
   },
 
-  toDo {
+  toDo: {
     header: `What we’ll do`, //ու ստեղ հասկացա, որ հիդերները նույնն են ։Դ
     paragraph: `Luca - Cooking is my passion. I'm 32 years old and I've loved making handmade pasta as long as I can remember. I've made fresh pasta professionally for many years preparing tons of it.`
   },
 
-  provides {
+  provides: {
     header: `What I’ll provide`,
     paragraph1: `Home made Pasta `,
     paragraph2: `Wine Tasting (2 wine)`,
@@ -34,24 +34,24 @@ const basa = {
     //համենայն դեպս դու սկզբիզ nature1.js֊ի քոմմենթները կարդալով իջի
   },
 
-  age {
+  age: {
     header: `Who can come`,
     paragraph: `Guests of all ages can attend.`
   },
 
-  notes {
+  notes: {
     header: `Notes`,
     paragraph: `Bring with you only your culinary passion.
 You will have the lesson with Pietro or with Luca.
 Wine from "Cantine Zanchi"`
   },
 
-  location {
+  location: {
     header: `Where we’ll be`,
     paragraph: `In one of the most charming quarters of Rome, a large and warm italian family opens the doors to their home welcoming you in like old friends. It's a unique and inimitable way to spend a few hours getting a glimpse of the warmth of a real big italian family.`
-  }
+  },
 
-  map {
+  map: {
     //ստեղ արդեն չգիտեմ ինչ գրեմ, Արտոն ասում էր մենակ Հայաստանն հելնի հերիք ա, սօ ստեղ մէփն ա էդ կետ մետն հետո,
     // էս չեմ հասկանում, ոնց կարա ինքը փոխի էլի, հասկանում եմ ուղղակի էդ շատ ա
     //լավ էս տեսնվելուց կխոսանք, թող մէփը ուղղակի քցի տեղը

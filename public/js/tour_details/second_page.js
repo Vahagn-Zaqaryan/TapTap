@@ -27,6 +27,8 @@ function doScrolling(element, duration) {
 }
 
 document.getElementById('scrolling').addEventListener('click', doScrolling.bind(null, '#section-id', 1000));
+document.getElementById('scrollToMap').addEventListener('click', doScrolling.bind(null, '#map', 1000));
+
 
 
 

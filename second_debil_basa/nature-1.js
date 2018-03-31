@@ -12,29 +12,29 @@ const basa = {
   equipment: `1 meal, Drinks and Equipment`,
   language: `Offered in English and Spanish`,
   extra: `People are eyeing this experience. Over 1,100 people have viewed it this week.`,
-  about {
+  about: {
     header: `About your host, Marcos`,
     paragraph: `Hi, I am an experienced trekking guide in Madrid and nature lover. Always happy to show Madrid's hidden places and beauty and share the history of our surrounding places.`
   },
 
-  toDo {
+  toDo: {
     header: `What we’ll do`,
     paragraph: `We will meet at the train station and I will take you to explore some of the most beautiful Spanish landscapes that Madrid Mountains can offer during 2 hours approx.`
   },
 
-  provides {
+  provides: {
     header: `What I’ll provide`,
     paragraph1: `Energetic Bar`,
     paragraph2: `Small Bottle of Water`,
     paragraph3: `Hiking Sticks + Crampons` //ստեղ կարելի ա էս բէքսթիքերի մեջ նոր տողերով  պարագրաֆները դնել, եթե ինքը կանի էլի, չէ ուրեմն թող երեք հատ պարագրաֆ լինի
   },
 
-  age {
+  age: {
     header: `Who can come`,
     paragraph: `Guests ages 12 and up can attend.`
   },
 
-  notes {
+  notes: {
     header: `Notes`,
     paragraph: `Bring sunscreen and adequate clothing (comfortable and good for the day's climate)`
   },
@@ -42,7 +42,7 @@ const basa = {
   location {
     header: `Where we’ll be`,
     paragraph: `We'll be in Madrid lovely mountains, about one hour by train from Madrid centre.`
-  }
+  },
 
   map {
     //ստեղ արդեն չգիտեմ ինչ գրեմ, Արտոն ասում էր մենակ Հայաստանն հելնի հերիք ա, սօ ստեղ մէփն ա էդ կետ մետն հետո,
