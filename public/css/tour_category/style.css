@@ -24,13 +24,6 @@
 .main .nav .menu ul a{
     text-decoration: none;
     color: #fff;
-    -webkit-text-stroke: -0.5vmin white;
-       color: white;
-       text-shadow:
-       -0.1vmin -0.1vmin 0 #000,
-        0.1vmin -0.1vmin 0 #000,
-        -0.1vmin 0.1vmin 0 #000,
-         0.1vmin 0.1vmin 0 #000;
 }
 .main .nav .menu ul a:hover > li{
     text-decoration: underline;
@@ -40,13 +33,6 @@
     float: left;
     font-size: 2.45vmin;
     margin-left: 3vmin;
-    -webkit-text-stroke: -0.5vmin white;
-       color: white;
-       text-shadow:
-       -0.1vmin -0.1vmin 0 #000,
-        0.1vmin -0.1vmin 0 #000,
-        -0.1vmin 0.1vmin 0 #000,
-         0.1vmin 0.1vmin 0 #000;
 }
 .main .nav .logo{
     position: relative;
@@ -58,23 +44,11 @@
     color: #fff;
     font-size: 4vmin;
     font-family: Fredoka_One;
-    -webkit-text-stroke: -0.5vmin white;
-    text-shadow:
-        -0.1vmin -0.1vmin 0 #000,
-         0.1vmin -0.1vmin 0 #000,
-         -0.1vmin 0.1vmin 0 #000,
-          0.1vmin 0.1vmin 0 #000;
 }
 .main .nav .logo .name a{
     text-decoration: none;
     color: #fff;
     font-family: Fredoka_One;
-    -webkit-text-stroke: -0.5vmin white;
-    text-shadow:
-    -0.1vmin -0.1vmin 0 #000,
-    0.1vmin -0.1vmin 0 #000,
-    -0.1vmin 0.1vmin 0 #000,
-     0.1vmin 0.1vmin 0 #000;
 }
 /* Header */
 .main header{
@@ -106,22 +80,12 @@
     color: #fff;
     font-size: 8vmin;
     font-family: Fredoka_One;
-    text-shadow:
-          -0.1vmin -0.1vmin 0 #000,
-          0.1vmin -0.1vmin 0 #000,
-          -0.1vmin 0.1vmin 0 #000,
-           0.1vmin 0.1vmin 0 #000;
 }
 .main header .Hcontent .text{
     font-size: 2.6vmin;
     display: block;
     max-width: 40%;
     margin: auto auto;
-    text-shadow:
-          -0.1vmin -0.1vmin 0 #000,
-          0.1vmin -0.1vmin 0 #000,
-          -0.1vmin 0.1vmin 0 #000,
-           0.1vmin 0.1vmin 0 #000;
 }
 .main header .Hcontent .button{
     padding: 1.5vmin 3.75vmin;

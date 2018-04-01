@@ -3,7 +3,6 @@ blockquote p {
   color: #9e3a3a;
 }
 
-
 /*nav bar*/
 .container {
   min-height: 100%; !important;
@@ -36,13 +35,7 @@ blockquote p {
   font-size: 2.45vmin;
   margin-left: 3vmin;
   padding: 0.82vmin 0;
-  -webkit-text-stroke: 0.5px white;
-     color: white;
-     text-shadow:
-           -0.1vmin -0.1vmin 0 #000,
-           0.1vmin -0.1vmin 0 #000,
-           -0.1vmin 0.1vmin 0 #000,
-            0.1vmin 0.1vmin 0 #000;
+  color: white;
 }
 
 .container .nav-bar .menu-items ul li a {
@@ -65,25 +58,12 @@ blockquote p {
 .container .nav-bar .logo .name {
   font-family: Fredoka_one;
   font-size: 4vmin;
-  -webkit-text-stroke: -0.5vmin white;
-  text-shadow:
-        -0.1vmin -0.1vmin 0 #000,
-        0.1vmin -0.1vmin 0 #000,
-        -0.1vmin 0.1vmin 0 #000,
-         0.1vmin 0.1vmin 0 #000;
-
 }
 
 .container .nav-bar .logo .name a {
   font-family: Fredoka_one;
   color: white;
   text-decoration: none;
-  -webkit-text-stroke: -0.5vmin white;
-  text-shadow:
-        -0.1vmin -0.1vmin 0 #000,
-        0.1vmin -0.1vmin 0 #000,
-        -0.1vmin 0.1vmin 0 #000,
-         0.1vmin 0.1vmin 0 #000;
 }
 
 /*background photo, parallax*/
@@ -97,28 +77,24 @@ blockquote p {
   align-items: center;
   justify-content: center;
 }
-
+.dark_img{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+align-items: center;
+justify-content: center;
+}
 .parallax .parallax-layer {
   width: 30vmax; !important;
   text-align: center;
   color: white;
   font-size: 2.6vmin;
   display: block;
-  text-shadow:
-        -0.1vmin -0.1vmin 0 #000,
-        0.1vmin -0.1vmin 0 #000,
-        -0.1vmin 0.1vmin 0 #000,
-         0.1vmin 0.1vmin 0 #000;
-
 }
 
 .parallax .parallax-layer h1{
   font-family: Fredoka_one;
-  text-shadow:
-        -0.1vmin -0.1vmin 0 #000,
-        0.1vmin -0.1vmin 0 #000,
-        -0.1vmin 0.1vmin 0 #000,
-         0.1vmin 0.1vmin 0 #000;
 }
 
 .parallax .parallax-layer button {
@@ -132,7 +108,7 @@ blockquote p {
   margin-top: 0.5vmin;
   line-height: 20px;
   transition: all .3s;
-
+  outline: none;
 }
 
 
