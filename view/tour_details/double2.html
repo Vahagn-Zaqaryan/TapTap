@@ -7,7 +7,6 @@
     <title><%= basa.name %></title>
     <link rel="stylesheet" href="../../css/tour_details/style.css">
     <link rel="stylesheet" href="../../css/general.css">
-    <link rel="stylesheet" href="../../css/modal.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Gafata" rel="stylesheet">
   </head>
@@ -15,18 +14,19 @@
     <div class="container">
       <div class="nav-bar">
         <div class="logo">
-          <h2 class="name"><a href="/">TapTap</a></h2>
+          <h2 class="name">TapTap</h2>
         </div>
         <div class="menu-items">
           <ul class="list-inline">
-            <li>  <a href="">Become a Local</a> </li>
-            <li>  <a href="">Contact</a> </li>
-            <li>  <a href="">About</a> </li>
-            <li id="sign_in"> <a href="#">Sign In</a> </li>
+            <li>Become a Local</li>
+            <li>Contact</li>
+            <li>About</li>
+            <li>Sign In</li>
           </ul>
         </div>
       </div>
-    <div class="parallax" style="background-image: url('../../photos/<%= basa.bgImg %>.jpg');">
+    <div class="parallax">
+
       <div class="parallax-layer">
         <h1><%= basa.name %></h1>
         <p><%= basa.tour %></p>
@@ -94,30 +94,6 @@
         </aside>
     </section>
   </div>
-  <div class="modal" id="sign_in_modal">
-      <div class="content">
-          <div class="header">
-              <div class="box_name">
-                  Sign In
-              </div>
-          </div>
-          <div class="box_other">
-              <div class="form">
-                  <input type="text" name="" value="" placeholder="Username">
-                  <div class="space"></div>
-                  <input type="password" name="" value="" placeholder="Password">
-                  <div class="space"></div>
-                  <input type="submit" name="" value="Sign In">
-                  <!-- <div class="space"></div> -->
-                  <!-- <a href="" class="fup">Forgot Username / Password?</a> -->
-              </div>
-          </div>
-      </div>
-  </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="../js/home/script.js"></script>
-      <script type="text/javascript" src="../js/home/func.js"></script>
       <script type="text/javascript" src="../../js/tour_details/second_page.js"></script>
   </body>
 </html>

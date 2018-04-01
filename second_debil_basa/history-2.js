@@ -1,11 +1,11 @@
 'use strict';
 
 const basa = {
-  bgImg: `13`, /* file-ը նույնպես փուշ կանեմ սրա
+  bgImg: `16`, /* file-ը նույնպես փուշ կանեմ սրա
       link֊երը փոխում եմ ի դեպ, ամեն մեկին իրա լինքն ա դրած եսլիշտօ
       լիքը նկարներ եմ նաև փուշ անելու, էնպես որ խնդիր չի լինի
       link for photos, նկարները դու կքաշես մնացածը ես կդնեմ հեսա */
-  name: `Discover  Gyumri with   Armen`,
+  name: `Discover  Gyumri with Armen`,
   tour: `History experience`,
   host: `Hosted by Armen Hovsepyan`,
   where: `Gyumri`,//oups chinese  //էս սրա վրա անկոր ա դրած, որ հենց սեղմում ես տանելու ա քարտեզի վրա
