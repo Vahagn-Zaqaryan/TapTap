@@ -4,12 +4,13 @@ $(document).ready(function (){
     let scrollBar = true;
     let beforeScroll = $(window).scrollTop();
     $("footer").append("<p>© 2017-" + date.getFullYear() + " TapTap Co. ALL RIGHTS RESERVED</p>");
-    $("#BALocal").on("click", function(){
-        let sum = $(window).height() - $(window).scrollTop();
-        $('html,body').animate({
-            scrollTop: $(window).scrollTop() + sum
-        }, "slow", 'swing');
-    });
+    // $("#BALocal").on("click", function(){
+    //     let sum = $(window).height() - $(window).scrollTop();
+    //     $('html,body').animate({
+    //         scrollTop: $(window).scrollTop() + sum
+    //     }, "slow", 'swing');
+    // });
+    document.getElementById('BALocal').addEventListener('click', doScrolling.bind(null, '#UI-Element-Content-Container', 1000));
     $("#sign_in").on("click", function(){
         scrollBar = false;
         $('.main').addClass('blur');
@@ -39,7 +40,7 @@ $(document).ready(function (){
     });
     $(document).scroll(function () {
         scrollAnimation();
-        console.log(scrollBar);
+        //console.log(scrollBar);
         if(!scrollBar)
             $(window).scrollTop(beforeScroll);
         else

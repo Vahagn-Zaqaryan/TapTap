@@ -1,7 +1,7 @@
 function imgSize(){
-    $(".img").each(function(){
+    $(".UI-Element-Image-Categories").each(function(){
         $(this).css({
-            "height" : $(window).width()*0.1875
+            "height" : $(window).width()*1/4*0.61
         });
     });
 }
