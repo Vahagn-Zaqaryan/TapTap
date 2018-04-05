@@ -105,10 +105,10 @@ justify-content: center;
   font-size: 2.2vmin;
   padding: 1.5vmin 3.75vmin;
   margin-top: 0.5vmin;
-  line-height: 20px;
+  /* line-height: 20px; */
   transition: all .3s;
   outline: none;
-  border-radius: 20px;
+  border-radius: 20vmin;
   border: none;
 }
 .parallax .parallax-layer button:hover{

@@ -1,5 +1,5 @@
 .main{
-    min-height: 100%; !important;
+    min-height: 100% !important;
     height: 100%;
 }
 /* NAV */
@@ -90,7 +90,7 @@
 }
 .main header .Hcontent .button{
     padding: 1.5vmin 3.75vmin;
-    border-radius: 20px;
+    border-radius: 20vmin;
     border: none;
     font-size: 2vmin;
     transition: all .3s;
