@@ -27,23 +27,54 @@ function doScrolling(element, duration) {
 
 document.getElementById('scrolling').addEventListener('click', doScrolling.bind(null, '#section-id', 1000));
 document.getElementById('scrollToMap').addEventListener('click', doScrolling.bind(null, '#map', 1000));
-
-let modal = document.getElementById('myModal');
-let btn = document.getElementById("dates");
-let span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
-
+$(document).ready(function(){
+    let scrollBar = true;
+    let openModal = false;
+    let beforeScroll = $(window).scrollTop();
+    $("#sign_in").on("click", function(){
+        scrollBar = false;
+        $('.container').addClass('blur');
+        $('#sign_in_modal').fadeIn();
+    });
+    $("#dates").on("click", function(){
+        scrollBar = false;
+        openModal = true;
+        $('.container').addClass('blur');
+        $('#myModal').fadeIn();
+    });
+    $(".close").on("click", function(){
+        scrollBar = false;
+        openModal = false;
+        $('.container').removeClass('blur');
+        $('#myModal').fadeOut();
+    });
+    $(document).keyup(function(e) {
+        if (e.keyCode == 27) {
+            scrollBar = true;
+            openModal = false;
+            $('.container').removeClass('blur');
+            $('.modal').fadeOut();
+            $('.modal-dates').fadeOut();
+        }
+    });
+    $(document).scroll(function () {
+        if(!scrollBar)
+            $(window).scrollTop(beforeScroll);
+        else
+            beforeScroll = $(window).scrollTop();
+    });
+    $(document).mouseup(function(e)
+    {
+        var container = $('.modal > .content');
+        if (!container.is(e.target) && container.has(e.target).length === 0 && !scrollBar)
+        {
+            scrollBar = true;
+            openModal = false;
+            $('.container').removeClass('blur');
+            $('.modal').fadeOut();
+        }
+    });
+});
 //slider
 // var swiper_rev = new Swiper('.shape_abaj', {
 //     slidesPerView: 1,
