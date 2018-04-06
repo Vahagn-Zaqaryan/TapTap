@@ -197,3 +197,39 @@ blockquote p {
   margin: 0.85vmin;
   border-bottom: 1px solid #dcdcdc;
 }
+
+
+
+.modal-dates{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-dates .modal-content{
+    background-color: #fff;
+    border-radius: 1vmin;
+    width: 100vmin;
+    height: 50vh;
+    position: absolute;
+  	top:0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
+    box-shadow: 0px 0px 1.5vmin 1px;
+}
+.modal-dates .modal-content .dates-header{
+    color: #fff;
+    border-radius: 1vmin 1vmin 0 0;
+    background-color: #57b846;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4vmin;
+    padding-bottom: 4vmin;
+    font-size: 3vmin;
+}

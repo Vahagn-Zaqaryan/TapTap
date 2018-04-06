@@ -14,11 +14,11 @@
     width: 40vmin;
     height: 50vh;
     position: absolute;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
+  	top:0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
     box-shadow: 0px 0px 1.5vmin 1px;
 }
 .modal .content .header{

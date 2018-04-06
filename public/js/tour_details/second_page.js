@@ -42,6 +42,12 @@ $(document).ready(function(){
         $('.container').addClass('blur');
         $('#myModal').fadeIn();
     });
+    $(".book-close").on("click", function() {
+        scrollBar = false;
+        openModal = false;
+        $('.container').removeClass('blur');
+        $('#myModal').fadeOut();
+    });
     $(".close").on("click", function(){
         scrollBar = false;
         openModal = false;
