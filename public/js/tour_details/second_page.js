@@ -3,7 +3,6 @@
 function getElementY(query) {
   return window.pageYOffset + document.querySelector(query).getBoundingClientRect().top
 }
-
 function doScrolling(element, duration) {
 	let startingY = window.pageYOffset
   let elementY = getElementY(element)
@@ -29,7 +28,20 @@ function doScrolling(element, duration) {
 document.getElementById('scrolling').addEventListener('click', doScrolling.bind(null, '#section-id', 1000));
 document.getElementById('scrollToMap').addEventListener('click', doScrolling.bind(null, '#map', 1000));
 
-
+let modal = document.getElementById('myModal');
+let btn = document.getElementById("dates");
+let span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 
 
 //slider

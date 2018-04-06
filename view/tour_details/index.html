@@ -40,11 +40,21 @@
     <section id="section-id">
         <aside class="aside-with-text">
             <div class="aside-div">
-                  <div class="texts">
+                  <div class="texts" id="details">
+
+                    <section class="sectionOne">
                     <p> <i class="fas fa-map-marker-alt"></i> <span> <a href="#map" id="scrollToMap"> <%= basa.where %></a></span></p>
                     <p> <i class="fas fa-clock"></i> <span> <%= basa.time %></span></p>
                     <p> <i class="fas fa-ticket-alt"></i> <span> <%= basa.equipment %></span></p>
                     <p> <i class="fas fa-comments"></i> <span> <%= basa.language %></span></p>
+                  </section>
+                    <section class="sectionTwo">
+                            <button id="dates">See Dates</button>
+                          </br>
+                            <button id="book">Book Now!</button>
+
+
+                    </section>
                   </div>
                   <% if( basa.extra ){ %>
                       <div class="texts">
@@ -116,8 +126,60 @@
           </div>
       </div>
   </div>
+
+  <div id="myModal" class="modal-dates">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div>
+    <span class="close">&times;</span>
+    </div>
+    <div class="dates-header">
+      <h2>When do you want to go?</h2>
+    </div>
+  <div class="content-texts">
+      <div class="text-flex">
+        <h4>Sun, Apr 8</h4>
+        <p>10:00 AM − 1:30 PM · $20 per person</p>
+      </div>
+      <div class="chooseBtn">
+        <button>Book Now!</button>
+      </div>
+  </div>
+  <div class="content-texts">
+    <div class="text-flex">
+      <h4>Mon, Apr 9</h4>
+      <p>10:00 AM − 1:30 PM · $20 per person</p>
+    </div>
+    <div class="chooseBtn">
+      <button>Book Now!</button>
+    </div>
+  </div>
+  <div class="content-texts">
+    <div class="text-flex">
+      <h4>Tue, Apr 10</h4>
+      <p>10:00 AM − 1:30 PM · $20 per person</p>
+    </div>
+    <div class="chooseBtn">
+      <button>Book Now!</button>
+    </div>
+  </div>
+  <div class="content-texts">
+    <div class="text-flex">
+      <h4>Wed, Apr 11</h4>
+      <p>10:00 AM − 1:30 PM · $20 per person</p>
+    </div>
+    <div class="chooseBtn">
+      <button>Book Now!</button>
+    </div>
+  </div>
+
+  </div>
+
+</div>
+
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="../js/home/script.js"></script>
       <script type="text/javascript" src="../js/home/func.js"></script>
       <script type="text/javascript" src="../../js/tour_details/second_page.js"></script>
