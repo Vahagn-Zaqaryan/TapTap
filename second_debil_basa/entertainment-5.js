@@ -1,7 +1,7 @@
 'use strict';
 
 const basa = {
-  bgImg: `img22`, /* https://www.airbnb.com/experiences/112890?source=p2&currentTab=experience_tab&searchId=e448aa8d-09c4-4800-8cde-0b9a6d6201e8&federatedSearchId=5020c190-e217-4f54-a917-362f24184c5f&sectionId=025c4815-dd45-473b-9795-12f715b617c4
+  bgImg: `23`, /* https://www.airbnb.com/experiences/112890?source=p2&currentTab=experience_tab&searchId=e448aa8d-09c4-4800-8cde-0b9a6d6201e8&federatedSearchId=5020c190-e217-4f54-a917-362f24184c5f&sectionId=025c4815-dd45-473b-9795-12f715b617c4
       link֊երը փոխում եմ ի դեպ, ամեն մեկին իրա լինքն ա դրած եսլիշտօ
       link for photos, նկարները դու կքաշես մնացածը ես կդնեմ հեսա */
   name: `Discover the city's party scene`,
@@ -50,6 +50,7 @@ const basa = {
 },
 
   map: {
+    vand: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3060189173!2d-74.25987143322084!3d40.69714940493968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY!5e0!3m2!1sen!2s!4v1523122043567`
     //ստեղ արդեն չգիտեմ ինչ գրեմ, Արտոն ասում էր մենակ Հայաստանն հելնի հերիք ա, սօ ստեղ մէփն ա էդ կետ մետն հետո,
     // էս չեմ հասկանում, ոնց կարա ինքը փոխի էլի, հասկանում եմ ուղղակի էդ շատ ա
     //լավ էս տեսնվելուց կխոսանք, թող մէփը ուղղակի քցի տեղը
