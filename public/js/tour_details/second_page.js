@@ -33,7 +33,7 @@ $(document).ready(function(){
     let beforeScroll = $(window).scrollTop();
     $("#sign_in").on("click", function(){
         scrollBar = false;
-        $('.container').addClass('blur');
+        $('.container').addClass('blur'); 
         $('#sign_in_modal').fadeIn();
     });
     $("#dates").on("click", function(){

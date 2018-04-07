@@ -1,7 +1,7 @@
 'use strict';
 
 const basa = {
-  bgImg: `2`, /* https://www.airbnb.com/experiences/41090?source=p2&currentTab=experience_tab&searchId=9afcf163-eb86-436e-bae6-ecd9ab8d3daf&federatedSearchId=67025189-54c2-4ba4-a47c-d4edbb65d32c&sectionId=374e3f35-1139-4c16-b3da-cb53ce007d11
+  bgImg: `20`, /* https://www.airbnb.com/experiences/41090?source=p2&currentTab=experience_tab&searchId=9afcf163-eb86-436e-bae6-ecd9ab8d3daf&federatedSearchId=67025189-54c2-4ba4-a47c-d4edbb65d32c&sectionId=374e3f35-1139-4c16-b3da-cb53ce007d11
       link֊երը փոխում եմ ի դեպ, ամեն մեկին իրա լինքն ա դրած եսլիշտօ
       link for photos, նկարները դու կքաշես մնացածը ես կդնեմ հեսա */
   name: `Craft postcards in a family paper shop`,
@@ -46,6 +46,7 @@ const basa = {
 },
 
   map: {
+    vand: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d840389.5672700207!2d135.43342390553852!3d34.63520798012073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e86b2acc70d7%3A0xa399ff48811f596d!2sOsaka+Prefecture%2C+Japan!5e0!3m2!1sen!2s!4v1523119515326`
     //ստեղ արդեն չգիտեմ ինչ գրեմ, Արտոն ասում էր մենակ Հայաստանն հելնի հերիք ա, սօ ստեղ մէփն ա էդ կետ մետն հետո,
     // էս չեմ հասկանում, ոնց կարա ինքը փոխի էլի, հասկանում եմ ուղղակի էդ շատ ա
     //լավ էս տեսնվելուց կխոսանք, թող մէփը ուղղակի քցի տեղը
