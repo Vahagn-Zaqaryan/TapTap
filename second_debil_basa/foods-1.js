@@ -1,7 +1,7 @@
 'use strict';
 
 const basa = {
-  bgImg: `8`, /* https://www.airbnb.com/experiences/184169?source=p2&currentTab=experience_tab&searchId=2ee739d8-1a25-401d-851c-6000337f8117&federatedSearchId=e78304a8-fada-4c03-9f77-86b636f160ca&sectionId=3beb5235-0e24-4519-861b-4f9eaa5e2819
+  bgImg: `26`, /* https://www.airbnb.com/experiences/184169?source=p2&currentTab=experience_tab&searchId=2ee739d8-1a25-401d-851c-6000337f8117&federatedSearchId=e78304a8-fada-4c03-9f77-86b636f160ca&sectionId=3beb5235-0e24-4519-861b-4f9eaa5e2819
       link֊երը փոխում եմ ի դեպ, ամեն մեկին իրա լինքն ա դրած եսլիշտօ
       link for photos, նկարները դու կքաշես մնացածը ես կդնեմ հեսա */
   name: `Cherry Blossom View &"KANJI"Art Making`,
@@ -55,6 +55,7 @@ Assembled under the clock tower`
 },
 
   map: {
+    vand: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51862.55228101337!2d139.65760652508243!3d35.666917212489516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cb2eb3108d1%3A0xf11cd9b2395b6677!2sShibuya%2C+Tokyo%2C+Japan!5e0!3m2!1sen!2s!4v1523125861382`
     //ստեղ արդեն չգիտեմ ինչ գրեմ, Արտոն ասում էր մենակ Հայաստանն հելնի հերիք ա, սօ ստեղ մէփն ա էդ կետ մետն հետո,
     // էս չեմ հասկանում, ոնց կարա ինքը փոխի էլի, հասկանում եմ ուղղակի էդ շատ ա
     //լավ էս տեսնվելուց կխոսանք, թող մէփը ուղղակի քցի տեղը

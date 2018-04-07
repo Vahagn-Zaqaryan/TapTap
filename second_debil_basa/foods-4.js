@@ -1,7 +1,7 @@
 'use strict';
 
 const basa = {
-  bgImg: `11`, /* https://www.airbnb.com/experiences/68456?source=p2&currentTab=experience_tab&searchId=20f4aacc-f15e-40e3-8425-808b35b55f13&federatedSearchId=2eba2cbd-4602-495f-80cc-fbb2607b3705&sectionId=2a6e32e0-3035-458b-b3dd-1401824cf162
+  bgImg: `29`, /* https://www.airbnb.com/experiences/68456?source=p2&currentTab=experience_tab&searchId=20f4aacc-f15e-40e3-8425-808b35b55f13&federatedSearchId=2eba2cbd-4602-495f-80cc-fbb2607b3705&sectionId=2a6e32e0-3035-458b-b3dd-1401824cf162
       link֊երը փոխում եմ ի դեպ, ամեն մեկին իրա լինքն ա դրած եսլիշտօ
       link for photos, նկարները դու կքաշես մնացածը ես կդնեմ հեսա */
   name: `Pasta Maker & Wine Tasting & Dinner`,
@@ -52,6 +52,7 @@ Wine from "Cantine Zanchi"`
   },
 
   map: {
+    vand: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190028.2570911087!2d12.395911098270624!3d41.91024148877302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2sRome%2C+Metropolitan+City+of+Rome%2C+Italy!5e0!3m2!1sen!2s!4v1523127388235`
     //ստեղ արդեն չգիտեմ ինչ գրեմ, Արտոն ասում էր մենակ Հայաստանն հելնի հերիք ա, սօ ստեղ մէփն ա էդ կետ մետն հետո,
     // էս չեմ հասկանում, ոնց կարա ինքը փոխի էլի, հասկանում եմ ուղղակի էդ շատ ա
     //լավ էս տեսնվելուց կխոսանք, թող մէփը ուղղակի քցի տեղը
